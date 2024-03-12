@@ -1,0 +1,56 @@
+@import "../abstract";
+
+.header_container {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    nav ul {
+        display: flex;
+        gap: 40px;
+
+        a {
+            color: $black-color;
+            font-family: "Raleway",;
+            font-weight: 400;
+            font-size: 14px;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+
+        a:hover {
+            color: #AE7B3C;
+        }
+    }
+
+    .contact {
+        display: flex;
+        align-items: center;
+        gap: 63px;
+
+        .auth {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+        }
+    }
+
+    .auth {
+        a {
+            color: $black-color-2;
+            font-family: 'Lato';
+            font-size: 20px;
+            font-weight: 600;
+            transition: all 0.4s;
+        }
+        a:hover {
+            color: #AE7B3C;
+        }
+    }
+
+    .btn-click {
+        background-color: transparent;
+        border: none;
+    }
+}

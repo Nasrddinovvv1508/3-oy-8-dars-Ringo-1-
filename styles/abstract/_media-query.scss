@@ -1,0 +1,103 @@
+@media (max-width: 1000px) {
+    .container {
+        max-width: 960px;
+        width: 100%;
+    }
+
+    main {
+        .section {
+            .bg-section {
+                background-image: url('../img/tv-cabinet-modern-living-room-with-armchair-plant-dark-marble-wall-3d-rendering%201.png');
+
+                .main-wrapper {
+                    background-image: url('../img/bg-image1000-2.png');
+                }
+            }
+        }
+
+        .main-down {
+            width: 920px;
+        }
+    }
+}
+
+@media (max-width: 640px) {
+    .container {
+        max-width: 600px;
+        width: 100%;
+    }
+
+    .header_container {
+        .btn-click {
+            display: block;
+        }
+
+        #ul {
+            display: none;
+        }
+
+    }
+
+    main {
+        .section {
+            .bg-section {
+                background-image: url('../img/main-bg-640.png');
+
+                .main-wrapper {
+                    background-image: url('../img/main-bg-640-2.png');
+                }
+            }
+        }
+
+        .main-down {
+            width: 600px;
+        }
+
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .header_container {
+        .contact {
+            display: none;
+        }
+    }
+
+    main {
+        .section {
+            .bg-section {
+                height: 495px;
+                background-image: url('../img/main-bg-320.png');
+
+                .main-wrapper {
+                    height: 495px;
+                    background-image: url('../img/main-bg-320-2.png');
+                }
+            }
+        }
+
+        .main-wrapper {
+            h1 {
+                font-size: 28px;
+                line-height: 33.6px;
+            }
+
+            p {
+                width: 300px;
+                font-size: 16px;
+                line-height: 27px;
+                margin-top: 28px;
+                margin-bottom: 30px;
+            }
+
+            .main-down {
+                margin-top: 62px;
+            }
+        }
+    }
+}
