@@ -101,3 +101,54 @@
         }
     }
 }
+
+@media (max-width: 640px) {
+    .furtinure_cards {
+        display: grid;
+        grid-template-columns: auto auto auto;
+
+        .furniture_card {
+            p {
+                max-width: 195px;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+@media (max-width: 380px) {
+    .container {
+        max-width: 300px;
+    }
+
+    .header_container {
+        .contact, .auth {
+            display: none;
+        }
+    }
+
+    .card-wrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .furtinure_cards {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        gap: 20px;
+
+        .furniture_card {
+            p {
+                max-width: 137px;
+                font-size: 18px;
+            }
+
+            img {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+}
