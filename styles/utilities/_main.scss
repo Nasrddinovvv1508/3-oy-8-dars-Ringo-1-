@@ -251,4 +251,92 @@ main {
         }
     }
 
+
+    .types {
+        margin-bottom: 140px;
+
+        h1 {
+            margin-bottom: 80px;
+        }
+
+        .types_cards {
+            position: relative;
+
+            .smile {
+                position: absolute;
+                bottom: 292px;
+                left: 100px;
+            }
+        }
+
+        .types_card {
+            padding-top: 50px;
+            border-top: 1px solid rgba(40, 43, 34, 0.2);
+            border-bottom: 1px solid rgba(40, 43, 34, 0.2);
+            display: flex;
+            justify-content: space-between;
+
+            span {
+                font-size: 24px;
+                font-weight: 600;
+                color: $black-color;
+                opacity: 30%;
+            }
+
+            .another {
+                color: rgba(174, 123, 60, 1);
+                opacity: 100%;
+            }
+        }
+
+
+        .right-type {
+            padding-left: 40px;
+            padding-bottom: 50px;
+            border-left: 1px solid rgba(40, 43, 34, 0.2);
+
+            h4 {
+                font-size: 32px;
+                font-weight: 600;
+                margin-bottom: 10px;
+                color: $black-color;
+            }
+
+            p {
+                width: 517px;
+                color: $black-color;
+                font-size: 16px;
+                font-weight: 400;
+                opacity: 0.8;
+            }
+
+
+            .another {
+                color: rgba(174, 123, 60, 1);
+                opacity: 100%;
+            }
+        }
+    }
+
+    .register {
+        display: flex;
+
+        .form-wrapper {
+            background-color: #3D4A39;
+        }
+
+        form {
+
+            h1 {
+                font-size: 46px;
+                font-weight: 600;
+                line-height: 58px;
+                color: rgba(255, 255, 255, 1);
+            }
+        }
+
+        .bnt-form {
+            padding: 22px 104px;
+        }
+    }
 }

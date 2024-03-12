@@ -13,6 +13,9 @@
   main .main-down {
     width: 920px;
   }
+  main .assignment .kitchen, main .assignment .badroom {
+    display: none;
+  }
 }
 @media (max-width: 640px) {
   .container {
@@ -75,6 +78,9 @@
     max-width: 195px;
     font-size: 18px;
   }
+  .types_cards .types_card .right-type {
+    border-left: none;
+  }
 }
 @media (max-width: 380px) {
   .container {
@@ -101,6 +107,17 @@
   .furtinure_cards .furniture_card img {
     width: 50px;
     height: 50px;
+  }
+}
+@media (max-width: 760px) {
+  main .assignment .assignment_down {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 950px) {
+  main .types .types_cards .smile {
+    display: none;
   }
 }
 * {
@@ -169,6 +186,9 @@ a {
   main .main-down {
     width: 920px;
   }
+  main .assignment .kitchen, main .assignment .badroom {
+    display: none;
+  }
 }
 @media (max-width: 640px) {
   .container {
@@ -231,6 +251,9 @@ a {
     max-width: 195px;
     font-size: 18px;
   }
+  .types_cards .types_card .right-type {
+    border-left: none;
+  }
 }
 @media (max-width: 380px) {
   .container {
@@ -257,6 +280,17 @@ a {
   .furtinure_cards .furniture_card img {
     width: 50px;
     height: 50px;
+  }
+}
+@media (max-width: 760px) {
+  main .assignment .assignment_down {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 950px) {
+  main .types .types_cards .smile {
+    display: none;
   }
 }
 .header_container {
@@ -333,6 +367,9 @@ a {
   main .main-down {
     width: 920px;
   }
+  main .assignment .kitchen, main .assignment .badroom {
+    display: none;
+  }
 }
 @media (max-width: 640px) {
   .container {
@@ -395,6 +432,9 @@ a {
     max-width: 195px;
     font-size: 18px;
   }
+  .types_cards .types_card .right-type {
+    border-left: none;
+  }
 }
 @media (max-width: 380px) {
   .container {
@@ -421,6 +461,17 @@ a {
   .furtinure_cards .furniture_card img {
     width: 50px;
     height: 50px;
+  }
+}
+@media (max-width: 760px) {
+  main .assignment .assignment_down {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 950px) {
+  main .types .types_cards .smile {
+    display: none;
   }
 }
 main .bg-section {
@@ -655,4 +706,87 @@ main .assignment .assignment_down .badroom {
   position: absolute;
   right: 40px;
   bottom: 58px;
+}
+
+main .types {
+  margin-bottom: 140px;
+}
+
+main .types h1 {
+  margin-bottom: 80px;
+}
+
+main .types .types_cards {
+  position: relative;
+}
+
+main .types .types_cards .smile {
+  position: absolute;
+  bottom: 292px;
+  left: 100px;
+}
+
+main .types .types_card {
+  padding-top: 50px;
+  border-top: 1px solid rgba(40, 43, 34, 0.2);
+  border-bottom: 1px solid rgba(40, 43, 34, 0.2);
+  display: flex;
+  justify-content: space-between;
+}
+
+main .types .types_card span {
+  font-size: 24px;
+  font-weight: 600;
+  color: #282B22;
+  opacity: 30%;
+}
+
+main .types .types_card .another {
+  color: rgb(174, 123, 60);
+  opacity: 100%;
+}
+
+main .types .right-type {
+  padding-left: 40px;
+  padding-bottom: 50px;
+  border-left: 1px solid rgba(40, 43, 34, 0.2);
+}
+
+main .types .right-type h4 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #282B22;
+}
+
+main .types .right-type p {
+  width: 517px;
+  color: #282B22;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+main .types .right-type .another {
+  color: rgb(174, 123, 60);
+  opacity: 100%;
+}
+
+main .register {
+  display: flex;
+}
+
+main .register .form-wrapper {
+  background-color: #3D4A39;
+}
+
+main .register form h1 {
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 58px;
+  color: rgb(255, 255, 255);
+}
+
+main .register .bnt-form {
+  padding: 22px 104px;
 }/*# sourceMappingURL=style.css.map */

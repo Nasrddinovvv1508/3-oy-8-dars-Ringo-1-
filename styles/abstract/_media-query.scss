@@ -18,6 +18,12 @@
         .main-down {
             width: 920px;
         }
+
+        .assignment {
+            .kitchen, .badroom {
+                display: none;
+            }
+        }
     }
 }
 
@@ -114,6 +120,14 @@
             }
         }
     }
+
+    .types_cards {
+        .types_card {
+            .right-type {
+                border-left: none;
+            }
+        }
+    }
 }
 
 @media (max-width: 380px) {
@@ -148,6 +162,29 @@
             img {
                 width: 50px;
                 height: 50px;
+            }
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    main {
+        .assignment {
+            .assignment_down {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+@media (max-width: 950px) {
+    main {
+        .types {
+            .types_cards {
+                .smile {
+                    display: none;
+                }
             }
         }
     }
